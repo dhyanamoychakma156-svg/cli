@@ -167,7 +167,7 @@ pnpm check:all
 # From apps/cli (a touched TypeScript workspace):
 cd apps/cli
 pnpm types:check
-pnpm run test:unit && pnpm run test:integration
+pnpm run test:unit && pnpm run test:integration.
 
 # Repeat the relevant package tests for every touched workspace; run
 # pnpm types:check there too when that workspace declares the script.
